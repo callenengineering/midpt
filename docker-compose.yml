@@ -1,0 +1,11 @@
+version: '3'
+services:
+  api:
+    build: .
+    container_name: "midpt_api"
+    ports:
+      - "8000:15400"
+    volumes:
+      - ./src/:/src/
+    env_file:
+      - .env

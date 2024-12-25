@@ -1,0 +1,16 @@
+version: '3'
+services:
+  api:
+    container_name: "midpt_api"
+    build: .
+    ports:
+      - "8000:15400"
+    env_file:
+      - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 9007
+      MODULE_NAME: midpt.app
+    volumes:
+      - ./src:/src
+    
