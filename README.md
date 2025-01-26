@@ -59,4 +59,4 @@ A full list of allowed places can be found [here](https://developers.google.com/
 There are two reasons for this:
 
 1. If you gave a destination type and a radius, the places may not be _exactly_ in the middle but it will be close
-2. One route may be more direct than the other. If you have to take a side streets the whole way but your friend can fly on the highway, they will have a longer journey.
+2. One route may be more direct than the other. If you have to take a side streets the whole way but your friend can fly on the highway, they will have a shorter journey.
